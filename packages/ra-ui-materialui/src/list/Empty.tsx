@@ -39,7 +39,7 @@ export const Empty = (inProps: EmptyProps) => {
         <Root className={className}>
             <div className={EmptyClasses.message}>
                 <Inbox className={EmptyClasses.icon} />
-                <Typography variant="h4" paragraph>
+                <Typography variant="h4" component="p">
                     {translate(`resources.${resource}.empty`, {
                         _: emptyMessage,
                     })}

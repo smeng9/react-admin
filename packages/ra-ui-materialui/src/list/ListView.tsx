@@ -235,7 +235,7 @@ export interface ListViewProps<RecordType extends RaRecord = any> {
      *
      * const ListError = () => (
      *     <Box textAlign="center" m={1}>
-     *         <Typography variant="h4" paragraph>
+     *         <Typography variant="h4" component="p">
      *             Something went wrong
      *         </Typography>
      *         <Typography variant="body1">
@@ -301,7 +301,7 @@ export interface ListViewProps<RecordType extends RaRecord = any> {
      *
      * const Empty = () => (
      *     <Box textAlign="center" m={1}>
-     *         <Typography variant="h4" paragraph>
+     *         <Typography variant="h4" component="p">
      *             No products available
      *         </Typography>
      *         <Typography variant="body1">

@@ -504,7 +504,7 @@ import { CreateButton, List } from 'react-admin';
 
 const Empty = () => (
     <Box textAlign="center" m={1}>
-        <Typography variant="h4" paragraph>
+        <Typography variant="h4" component="p">
             No products available
         </Typography>
         <Typography variant="body1">
